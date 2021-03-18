@@ -1,0 +1,21 @@
+Visibleparticles will show onparticleeffects for everyone in world, disabling this will slightly reduce CPU usage,
+Worldthreading is depending on your CPU going into higher values will cause higher CPU usage,
+Setting it to lower value will limit world looping and will use lower CPU.
+autosave is HIGHLY suggested to be true, but disabling it will disable these:
+-Autosave for players (still saved on disconnect)
+-Autosave for worlds (still saved once /stop is called if crash RIP)
+-Limited buffs won't dissapear unless you relogin the game
+-World events will be disabled too
+Disabling autosave will lower CPU usage and remove LAG spikes
+Disabling jammers will reduce CPU usage
+
+
+
+(EDIT THESE ONLY IF YOU LAGGING)
+
+<START>
+visibleparticles|true
+worldthreading|12
+autosave|true
+jammers|true
+<END>

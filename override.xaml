@@ -1,0 +1,54 @@
+This will override items and what they are supposed to do
+
+id is for item id from coredata.txt
+maxgem is max gems the item will give
+customdropchance is the chance of custom drop happening, type 0 to disable
+customdropid is the id of custom item drop
+type currently is only one OnBreakEvent
+types explained here:
+OnBreakEvent the time when block is broken
+!this file contains configuration for farmable blocks 
+
+<START>
+type|OnBreakEvent
+id|4762
+maxgem|300
+customdropchance|0
+customdropid|0
+<SPACE>
+type|OnBreakEvent
+id|7382
+maxgem|500
+customdropchance|0
+customdropid|0
+<SPACE>
+type|OnBreakEvent
+id|5138
+maxgem|1600
+customdropchance|0
+customdropid|0
+<SPACE>
+type|OnBreakEvent
+id|5140
+maxgem|2600
+customdropchance|0
+customdropid|0
+<SPACE>
+type|OnBreakEvent
+id|5154
+maxgem|3900
+customdropchance|0
+customdropid|0
+<SPACE>
+type|OnBreakEvent
+id|5136
+maxgem|900
+customdropchance|1
+customdropid|2410
+<SPACE>
+type|OnBreakEvent
+id|9498
+maxgem|6500
+customdropchance|0
+customdropid|0
+<END>

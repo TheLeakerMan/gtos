@@ -1,0 +1,41 @@
+Please pay attention to this, doing a mistake might lead to very bad bugs
+name| is being used for /giverank
+adminlevel| is being used as identification for things,
+it needs to be unique for example value higher or equal to 2 
+will allow breaking blocks in worlds, MAKE SURE ADMINLEVELS ARENT SAME IN EACH RANK
+if u want to give ability to break blocks set it to higher than 2
+othewise u can go -1, -2, -3...
+prefix is something like `#@
+u can set it to whatever you want
+DONT ADD ANY more subscriber roles, they wont work!
+Subscriber commands are being added into current commands
+Subscriber cannot have a prefix
+ok one more time if u want to make a role with your own custom commands please use adminlevel less than 0
+and if you want to make a role which can bypass restrictions like break in all worlds use adminlevel higher than 2
+/giverank and some other dangerous commands are only obtainable if you are in creators list in config.json and have role with /giverank
+
+<START>
+name|subscriber
+adminlevel|none
+prefix|none
+commands|msgs,rs,ghost,setchat,jsb,ssb
+chatcolor|none
+<SPACE>
+name|player
+adminlevel|0
+prefix|none
+commands|help,trade,report,pay,buy,news,mods,go,kickall,pull,me,rules,status,r,rgo,warp,ban,time,msg,uba,sb,sdb,g,radio,who,wave,dance,love,sleep,fp,yes,no,omg,idk,furious,rolleyes,fold,dab,sassy,dance2
+chatcolor|w
+<SPACE>
+name|moderator
+adminlevel|1
+prefix|`#@
+commands|magic,help,trade,msgs,rs,report,ans,fakeban,pay,buy,togglemod,news,p,eff,ghost,mods,go,online,kickall,status,pull,me,warn,rules,r,rgo,warpto,warp,banworld,ssb,ban,pban,spk,mute,curse,time,msg,uba,info,infoex,nick,invis,jsb,sb,schat,sdb,g,radio,color,who,wave,dance,love,sleep,fp,yes,no,omg,idk,furious,rolleyes,fold,dab,sassy,dance2
+chatcolor|^
+<SPACE>
+name|developer
+adminlevel|2
+prefix|`6@
+commands|magic,giverank,help,trade,gemevent,msgs,rs,report,ans,fakeban,pay,regenerate,buy,togglemod,news,p,eff,find,ghost,mods,setchat,stop,go,online,kickall,status,pull,me,warn,rules,r,rgo,give,warpto,warp,banworld,ssb,ban,pban,suspend,spk,unmute,mute,curse,time,uncurse,unban,msg,uba,gsm,info,infoex,banip,nick,invis,givegems,delstatus,jsb,sb,schat,sdb,g,radio,color,who,wave,dance,love,sleep,fp,yes,no,omg,idk,furious,rolleyes,fold,dab,sassy,dance2
+chatcolor|5
+<END>
